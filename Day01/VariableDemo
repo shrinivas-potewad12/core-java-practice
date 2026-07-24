@@ -13,5 +13,6 @@ public class VariableDemo {
         System.out.println("Salary: " + salary);
         System.out.println("Grade: " + grade);
         System.out.println("Student: " + isStudent);
+
     }
 }
