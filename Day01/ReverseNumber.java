@@ -6,7 +6,6 @@ public class ReverseNumber {
             rev = rev * 10 + n % 10;
             n /= 10;
         }
-
         System.out.println(rev);
     }
 }
