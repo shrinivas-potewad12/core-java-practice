@@ -1,6 +1,6 @@
 
     public class BankSystem {
-
+        
         static class BankAccount {
             private String name;
             private int accNo;
@@ -9,11 +9,13 @@
             private ArrayList<String> history = new ArrayList<>();
 
             public BankAccount(String name, int accNo, int pin, double balance) {
+                
                 this.name = name;
                 this.accNo = accNo;
                 this.pin = pin;
                 this.balance = balance;
                 history.add(name + " account created with balance: " + balance);
+                
             }
 
             public boolean checkPin(int inputPin) {
@@ -170,6 +172,7 @@
                                 System.out.println("Wrong PIN");
                             }
                         } else {
+                            
                             System.out.println("Account not found");
                         }
                         break;
