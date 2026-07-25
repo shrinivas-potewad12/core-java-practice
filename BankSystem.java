@@ -7,9 +7,7 @@
             private int pin;
             private double balance;
             private ArrayList<String> history = new ArrayList<>();
-
             public BankAccount(String name, int accNo, int pin, double balance) {
-                
                 this.name = name;
                 this.accNo = accNo;
                 this.pin = pin;
@@ -17,7 +15,6 @@
                 history.add(name + " account created with balance: " + balance);
                 
             }
-
             public boolean checkPin(int inputPin) {
                 return this.pin == inputPin;
             }
