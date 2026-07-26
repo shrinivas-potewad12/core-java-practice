@@ -82,20 +82,15 @@
             BankAccount a1 = new BankAccount("Shinu", 101, 1111, 1000);
             BankAccount a2 = new BankAccount("Suraj", 102, 2222, 2000);
             BankAccount a3 = new BankAccount("Akshay", 103, 3333, 3000);
-
             map.put(101, a1);
             map.put(102, a2);
             map.put(103, a3);
-
             list.add(a1);
             list.add(a2);
             list.add(a3);
-
             System.out.println(" Welcome to Shinu Bank System");
             System.out.println("Accounts: Shinu, Suraj, Akshay");
-
             int choice;
-
             do {
                 System.out.println("\n===== BANK MENU =====");
                 System.out.println("1.Deposit");
