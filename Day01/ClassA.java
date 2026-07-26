@@ -1,7 +1,5 @@
 package corejava;
-
 public class ClassA {
-	
 	void meth1(int x, int y,int z)
 	{
 	 System.out.println("Addition : "+(x+y+z));
