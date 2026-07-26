@@ -6,7 +6,6 @@ public class CountDigits {
             count++;
             n /= 10;
         }
-
         System.out.println(count);
     }
 }
