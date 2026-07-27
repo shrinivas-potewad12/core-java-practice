@@ -8,10 +8,8 @@ public class StudentDetails {
         float marks = 89.5f;
         double percentage = 89.50;
         boolean pass = true;
-
         System.out.println(rollNo);
         System.out.println(name);
-        
         System.out.println(grade);
         
         System.out.println(marks);
