@@ -4,7 +4,6 @@ public class VariableDemo {
         int age = 21;
         String name = "Shrinivas";
         double salary = 25000.50;
-
         char grade = 'A';
         boolean isStudent = true;
         System.out.println("Name: " + name);
