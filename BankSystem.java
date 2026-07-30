@@ -8,9 +8,6 @@
             private double balance;
             private ArrayList<String> history = new ArrayList<>();
             public BankAccount(String name, int accNo, int pin, double balance) {
-
-
-
                 this.name = name;
                 this.accNo = accNo;
                 this.pin = pin;
